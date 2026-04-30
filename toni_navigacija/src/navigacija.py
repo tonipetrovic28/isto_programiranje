@@ -57,7 +57,24 @@ granice = [
 ]
 slika = plt.imread("jezero_crater_satellite_map.jpg")
 plt.imshow(slika, extent=granice, aspect="auto", alpha=0.7)
-sns.scatterplot(data=df_cisto, x="GPS_LONG", y="GPS_LAT", alpha=0.3)
+
+sns.scatterplot(data=df_cisto, x="GPS_LONG", y="GPS_LAT", alpha=0.3, label="Uzorci")
+
+plt.scatter(
+    df_kandidati["GPS_LONG"],
+    df_kandidati["GPS_LAT"],
+    marker="*",
+    s=250,
+    color="yellow",
+    zorder=5,
+    label="Kandidati za bušenje"
+)
+
+plt.legend()
+plt.xlabel("Longitude")
+plt.ylabel("Latitude")
+plt.title("Misijska karta - Jezero krater")
+
 plt.savefig("misijska_karta_jezero.jpg", dpi=200)
 plt.close()
 
