@@ -33,7 +33,6 @@ Ovakva separacija omogućuje očuvanje integriteta analize, dok se istovremeno z
 
 1. Korelacija temperature i udjela vode
 
-
    <img src="assets/graf1_temperatura_voda.png" width="500">
 
 
@@ -43,7 +42,6 @@ Interpretacija:
 Uočava se da uzorci s detektiranim metanom često koreliraju s umjerenim temperaturnim rasponima i povišenim udjelom vode, što je u skladu s hipotezama o mogućim mikrobiološkim procesima.
 
 2. Geoprostorna distribucija dubine bušenja
-
 
     <img src="assets/graf2_karta_dubine.png" width="500">
 
@@ -55,7 +53,6 @@ Veće dubine bušenja koncentrirane su u specifičnim zonama, što može ukaziva
 
 3. Distribucija metanskih signala
 
-
    <img src="assets/graf3_metan.png" width="500">
 
 
@@ -65,7 +62,6 @@ Interpretacija:
 Metanski signali nisu uniformno raspoređeni, već pokazuju klastersko ponašanje, što sugerira lokalizirane izvore emisije.
 
 4. Karta kandidata za život
-
 
    <img src="assets/karta_kandidata.png" width="500">
 
@@ -81,7 +77,6 @@ Interpretacija:
 Ove točke predstavljaju prioritete za daljnje istraživanje jer kombiniraju više biološki relevantnih indikatora.
 
 5. Satelitska karta s geoprostornim poravnanjem
-
 
    <img src="assets/misijska_karta_jezero.jpg" width="500">
 
