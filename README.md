@@ -1,1 +1,0 @@
-# isto_programiranje
