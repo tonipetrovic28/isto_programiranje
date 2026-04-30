@@ -24,13 +24,13 @@ sns.set_theme(style="whitegrid")
 
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=df_cisto, x="Temp_Tla_C", y="H2O_Postotak", hue="Metan_Senzor")
-plt.savefig("graf1_temperatura_voda.png", dpi=200)
+plt.savefig("1_temperatura_voda.png", dpi=200)
 plt.close()
 
 plt.figure(figsize=(10, 6))
 plt.scatter(df_cisto["GPS_LONG"], df_cisto["GPS_LAT"], c=df_cisto["Dubina_Busenja_cm"], cmap="viridis", s=20)
 plt.colorbar(label="Dubina bušenja")
-plt.savefig("graf2_karta_dubine.png", dpi=200)
+plt.savefig("2_karta_dubine.png", dpi=200)
 plt.close()
 
 plt.figure(figsize=(10, 6))
@@ -38,7 +38,7 @@ df_poz = df_cisto[df_cisto["Metan_Senzor"] == "Pozitivno"]
 df_neg = df_cisto[df_cisto["Metan_Senzor"] != "Pozitivno"]
 plt.scatter(df_neg["GPS_LONG"], df_neg["GPS_LAT"], color="blue", s=15)
 plt.scatter(df_poz["GPS_LONG"], df_poz["GPS_LAT"], color="red", s=15)
-plt.savefig("graf3_metan.png", dpi=200)
+plt.savefig("3_metan.png", dpi=200)
 plt.close()
 
 plt.figure(figsize=(10, 6))
